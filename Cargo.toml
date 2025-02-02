@@ -1,0 +1,14 @@
+[package]
+name = "arrowx"
+version = "0.1.0"
+edition = "2021"
+description = "高性能本地向量数据库.提供本地 http 服务"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/zhuchuanjing/arrowx"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+axum = "0.8.1"
+arrowdb = "0.1.2"
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1.0.94"
